@@ -5,7 +5,7 @@ This project demonstrates a comprehensive Data Warehousing and Analytics solutio
 ## Data Architecture
 
 The Data Architecture for this project follows Medallion Architecture **Bronze**, **Silver** and **Gold** Layers:
-![Data Architecture](drawings/SQL_Data_Warehouse_Plan.png)
+![Data Architecture](docs/SQL_Data_Warehouse_Plan.png)
 1. **Bronze Layer**: Stores raw data as it is from the source Systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes Data Cleansing, Standardization, and Normalization processes to prepare data for analysis.
 3. **Gold Layer**: Houses Business-Ready data modeled into a Star Schema required for reporting ana analytics.
@@ -23,7 +23,7 @@ The Data Architecture for this project follows Medallion Architecture **Bronze**
 - DrawIO
 
 Here is a nice illustration that I drew on DrawIO then edited Me and Team icons on Gemini that shows Git in action
-![Data Architecture](drawings/GitHub_Explanation_Drawing.png)
+![Data Architecture](docs/GitHub_Explanation_Drawing.png)
 
 ## Project Requirements
 #### Objective
@@ -74,7 +74,6 @@ data-warehouse-project/
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
 ```
 
 ## License
